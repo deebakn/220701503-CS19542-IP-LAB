@@ -1,0 +1,82 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    border: 2px solid black;
+    padding: 20px; 
+    margin: 20px; 
+}
+
+#resume-container {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-img {
+    float: right;
+    width: 150px;
+    height: 150px;
+}
+
+.linkedin-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.linkedin-img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    color: #2E86C1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+.sno-column {
+    width: 5%;
+    text-align: center;
+}
+
+.skill-type {
+    font-weight: bold;
+}
+
+.highlight {
+    color: #E74C3C;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
